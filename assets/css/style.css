@@ -1,0 +1,97 @@
+body {
+    background-image: url("../images/weird.jpg");
+    /* font-family: 'domoaregatonormal', cursive; */
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-family: 'Shojumaru';
+    color: darkgreen;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 5px solid #416788;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px
+  }
+  
+  img {
+    height: 400px;
+    width: 500px;
+    border: 2px #416788 solid;
+    border-radius: 25px;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    background-color: #416788;
+    color: white;
+    font-size: 20px ;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    border: 3px black solid;
+    box-shadow: 0 0 1rem #81D2C7;
+    background-color: #81D2C7;
+    color: black;
+  }
+  
+  #start {
+    vertical-align: middle;
+    transform: translate(0, 150%);
+    height: 100px;
+    width: 200px;
+    font-size: 60px ;
+  }
+  
+  #content {
+   
+    position: relative;
+    height: 650px;
+    border: 5px #416788 solid;
+    border-radius: 25px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 3px 3px 20px 6px #ccc ;
+    padding-bottom: 20px;
+  }
+  
+  #content::after {
+    content: "";
+    background-image: url("");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .4;
+  }
+  
+  #question-area {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: aqua;
+  }
+  
+  .message-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: tomato;
+  }
+  h3 {
+      color: aqua;
+  }
+  
+  
+    img {
+      height: 200px;
+      width: 250px;
+    }
