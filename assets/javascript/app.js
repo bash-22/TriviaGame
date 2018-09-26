@@ -124,10 +124,8 @@ $(document).ready( function() {
      
       messageArea.appendTo($("#content"));
       winMessage.appendTo($(messageArea));
-      detail.appendTo($(messageArea))
       image.appendTo($(messageArea))
       winMessage.text("Correct!");
-      detail.text(questions[currentQuestion].detail)
       image.attr("src", questions[currentQuestion].gif)
   
   
@@ -144,15 +142,12 @@ $(document).ready( function() {
       var messageArea = $("<div>");
       messageArea.addClass("message-content")
       var lossMessage = $("<h2>");
-      var detail = $("<h2>")
       var image = $("<img>")
      
       messageArea.appendTo($("#content"));
       lossMessage.appendTo(messageArea)
-      detail.appendTo($(messageArea))
       image.appendTo($(messageArea))
       lossMessage.html("Wrong! The right answer was: " + questions[currentQuestion].answers[questions[currentQuestion].values.indexOf(true)]);
-      detail.text(questions[currentQuestion].detail)
       image.attr("src", questions[currentQuestion].gif)
   
       
@@ -169,7 +164,6 @@ $(document).ready( function() {
       var messageArea = $("<div>");
       messageArea.addClass("message-content")
       var lossMessage = $("<h2>");
-      var detail = $("<h2>")
       var image = $("<img>")
      
       messageArea.appendTo($("#content"));
@@ -177,7 +171,6 @@ $(document).ready( function() {
       detail.appendTo($(messageArea))
       image.appendTo($(messageArea))
       lossMessage.html("You timed out! The right answer was: " + questions[currentQuestion].answers[questions[currentQuestion].values.indexOf(true)]);
-      detail.text(questions[currentQuestion].detail)
       image.attr("src", questions[currentQuestion].gif)
   
      
