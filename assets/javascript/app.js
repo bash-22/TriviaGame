@@ -6,31 +6,31 @@ $(document).ready( function() {
         question: "What is the capital of France?",
         answers: ["Paris", "Lyon", "Marseille", "Cannes"],
         values: [true, false, false, false],
-        gif: "assets/images/paris.jpg",
+        gif: "../images/paris.jpg",
       },
       {
         question: "What is the capital of Russia?",
         answers: ["Siberia", "Saint Petersburg", "Moscow", "Kiev"],
         values: [false, false, true, false],
-        gif: "assets/images/Moscow-City.jpg",
+        gif: "../images/Moscow-City.jpg",
       },
       {
         question: "What is the capital of Italy?",
         answers: ["Milan", "Rome", "Torino", "Napoli"],
         values: [false, true, false, false],
-        gif: "assets/images/roma.jpg",
+        gif: "../images/roma.jpg",
       },
       {
         question: "What is the capital of Columbia?",
         answers: ["Medellin", "Calle", "Cartegena", "Bogota"],
         values: [false, false, false, true],
-        gif: "assets/images/bogota.jpg",
+        gif: "../images/bogota.jpg",
       },
       {
         question: "What is the capital of Germanny?",
         answers: ["Berlin", "Koln", "Dusseldorf", "Munchen"],
         values: [true, false, false, false],
-        gif: "assets/images/berlin.jpg",
+        gif: "../images/berlin.jpg",
       }]
   
    
